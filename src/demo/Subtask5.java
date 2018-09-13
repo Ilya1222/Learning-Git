@@ -7,9 +7,9 @@ import convert.Converter;
  */
 public class Subtask5 {
     public static void main(String[] args) {
-
-        Converter converter = new Converter(args); //Создаём объект класса Converter
-        converter.ConvertToValue(); // используем метод превода в значение
-
+        Converter converter = new Converter(args,args.length); //Создаём объект класса Converter
+        converter.printConvert(); // используем метод превода в значение
+        Converter converter1 = new Converter("26");
+        converter1.printNextValue();
     }
 }
