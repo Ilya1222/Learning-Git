@@ -8,17 +8,14 @@ public class Subtask3 {
         int a = Integer.parseInt(args[0]);
         int b = Integer.parseInt(args[1]);
 
-        if (a >= b) {
-            a = a % b;
-        } else {
-            b = b % a;
+        while (a != b) {
+            if (a > b) {
+                a = a - b;
+            } else {
+                b = b - a;
+            }
         }
-
-        if (a == 0) System.out.println("NOD:"+b);
-        else System.out.println("NOD: "+a);
+        System.out.println("NOD: "+a);
     }
-
-
-
 
 }

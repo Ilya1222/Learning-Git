@@ -12,7 +12,7 @@ public class Demo {
         Subtask2.main(new  String[] {"1","2"});
         System.out.println("-------------------------------------------------");
         System.out.println("Subtask3:");
-        Subtask3.main(new  String[] {"16","8"});
+        Subtask3.main(new  String[] {"60","18"});
         System.out.println("-------------------------------------------------");
         System.out.println("Subtask4:");
         Subtask4.main(new  String[] {"166"});
